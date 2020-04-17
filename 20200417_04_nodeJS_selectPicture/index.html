@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ko" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Event global method</title>
+    <link rel="stylesheet" href="style.css">
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.0.min.js"></script>
+
+    <script type="text/javascript" src="node_modules/socket.io-client/dist/socket.io.js">
+
+    </script>
+    <script type="text/javascript" src="script.js"></script>
+  </head>
+  <body>
+    <div class="intro">
+      <select class="pics" name="pics">
+        <!-- <option value="first">select picture</option> -->
+        <!-- <option value="first">a.jpg</option> -->
+      </select>
+    </div>
+    <div class="screen">
+      <img src="public/a.jpg" alt="nopic">
+    </div>
+    <div class="action">
+      <input type="text" id="msg">
+      <button type="button" name="button1">ADD</button>
+      <button type="button" name="button2">DROP</button>
+    </div>
+  </body>
+</html>
