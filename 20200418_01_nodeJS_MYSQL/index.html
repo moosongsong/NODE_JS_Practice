@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ko" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+
+  <title>MY SQL</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.0.min.js"></script>
+  <script type="text/javascript" src="node_modules/socket.io-client/dist/socket.io.js"></script>
+  <script type="text/javascript" src="script.js"></script>
+
+</head>
+
+<body>
+  <div class="memberList">
+  </div>
+
+  <div class="registerForm">
+    <table>
+      <tr>
+        <td>메일주소</td>
+        <td>
+          <input type="text" id="email">
+        </td>
+      </tr>
+      <tr>
+        <td>별명</td>
+        <td>
+          <input type="text" id="nick">
+        </td>
+      </tr>
+      <tr>
+        <td>비밀번호</td>
+        <td>
+          <input type="password" id="password">
+        </td>
+      </tr>
+      <tr>
+        <td>비밀번호 확인</td>
+        <td>
+          <input type="password" id="password2">
+        </td>
+      </tr>
+    </table>
+    <div class="action">
+      <button id="btnRegister" type="button">회원가입</button>
+    </div>
+  </div>
+</body>
+
+</html>
